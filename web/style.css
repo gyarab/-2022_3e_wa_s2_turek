@@ -72,3 +72,30 @@ figcaption {
     align-content: center;
     margin: auto;
 }
+
+.menu {
+    list-style-type: none;
+    height: 40px;
+    margin: 0;
+    padding-left: 0;
+    
+
+
+}
+
+.menuItems {
+    display: inline;
+    background-color: rgb(243, 193, 147);
+    font-size: 200%;
+
+
+}
+
+.menuA {
+    text-decoration: none;
+    color: crimson;
+}
+
+.menuItems:hover {
+    font-size: 210%;
+}
