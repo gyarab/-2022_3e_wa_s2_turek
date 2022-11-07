@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Chess</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+</head>
+
+<body>
+    <script>
+        const body = document.body;
+        tbl = document.createElement('table');
+        for (let i = 0; i < 8; i++) {
+            let tr = document.createElement("tr");
+            for (let j = 0; j < 8; j++) {
+                let td = document.createElement("td");
+                td.style.width = '50px';
+                td.style.height = '50px';
+                td.style.border = '1px solid black';
+                if ((j + i) % 2 == 0) {
+                    td.style.backgroundColor = 'black';
+                    let text = document.createTextNode("Čest práci, soudruhu");
+                    td.appendChild(text);
+                }
+                tr.appendChild(td);
+            }
+            tbl.appendChild(tr);
+        }
+        body.appendChild(tbl);
+    </script>
+</body>
+
+</html>
