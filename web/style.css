@@ -24,6 +24,8 @@ body {
     width: 50px;
     height: 50px;
     display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .icoLink {
@@ -39,13 +41,18 @@ body {
     height: 50px;
     display: flex;
 }
+.firstP{
+    margin-top: 10px;
+}
 
 h1 {
     margin-left: 0;
     margin-right: auto;
+    margin-top: 10px;    
+   
     text-align: center;
     align-self: center;
-    font-size: 20mm;
+    font-size: 50px;
     color: crimson;
     font: optional;
 }
@@ -98,4 +105,10 @@ figcaption {
 
 .menuItems:hover {
     font-size: 210%;
+}
+.navbar navbar-expand-lg navbar-light{
+    background-color: rgb(243, 193, 147);
+}
+.root{
+    --bg-sand: "#ffc107;"
 }
