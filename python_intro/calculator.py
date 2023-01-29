@@ -29,7 +29,7 @@ else:
     user_amount = input(f"Zadej částku v CZK : ")
     user_amount = float(user_amount)   
     x = data[code]
-    result = (user_amount / x[0])/x[1]
+    result = (user_amount / x[0])*x[1]
     result = round(result, 2)
    
 
